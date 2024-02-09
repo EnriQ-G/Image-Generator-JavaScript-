@@ -1,4 +1,6 @@
-const API_KEY = "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"
+require('dotenv').config();
+
+const API_KEY = process.env.API_KEY;
 
 const submitIcon = document.querySelector("#submit-icon")
 const inputElement = document.querySelector("input")
